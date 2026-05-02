@@ -468,3 +468,7 @@
 .btn-yellow:hover {
     background-color: #e6af3f;
 }
+.btn-outline:hover {
+    background-color: #02033B;
+    color: #fff;
+}
