@@ -6,3 +6,12 @@
   display: flex;
   align-items: center;
 }
+/* NAV LINKS */
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
