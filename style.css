@@ -441,3 +441,15 @@
     color: #02033B;
     opacity: 0.9; /* Subtle text fade */
 }
+/* Button Styling */
+.btn-yellow {
+    background-color: #FFC247;
+    color: #02033B;
+    padding: 12px 24px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.2s;
+}
