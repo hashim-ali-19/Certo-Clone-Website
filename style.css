@@ -1,3 +1,4 @@
+
 /* ================= HEADER ================= */
 .header {
   background: #F3F8FF;
@@ -6,6 +7,7 @@
   display: flex;
   align-items: center;
 }
+
 /* NAV LINKS */
 .nav-links {
   list-style: none;
@@ -15,22 +17,26 @@
   margin: 0;
   padding: 0;
 }
+
 .nav-links a {
   text-decoration: none;
   color: #0b132b;
   font-weight: 600;
   font-size: 16px;
 }
+
 /* LEFT LOGO */
 .nav-left {
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 .logo {
   width: 157px;
   height: 54PX;
 }
+
 /* COMPANY LINK + ICON */
 .company-link {
   display: flex;
@@ -40,15 +46,18 @@
   text-decoration: none;
   font-weight: 600;
 }
+
 .company-link svg {
   width: 14px;
   height: 14px;
   transition: 0.3s;
 }
+
 /* optional hover animation */
 .company-link:hover svg {
   transform: rotate(180deg);
 }
+
 /* RIGHT BUTTON */
 .btn-signin {
   display: inline-flex;
@@ -64,6 +73,7 @@
   text-decoration: none;
   transition: 0.3s ease;
 }
+
 .btn-signin:hover {
   background-color: #3529b5;
 }
@@ -85,6 +95,7 @@
   display: flex;
   align-items: center;
 }
+
 /* ================= THE ELLIPSE GLOW EFFECT ================= */
 /* Yeh wahi ellipse hai jo Figma mein highlight hai */
 .hero-ellipse {
@@ -110,6 +121,7 @@
   z-index: -1; 
   pointer-events: none;
 }
+
 /* ================= HERO CONTAINER ================= */
 .hero-container {
   /* Relative position zaroori hai taake ye ellipse ke upar layer ho */
@@ -123,6 +135,7 @@
   padding-right: 0;
   gap: 20px;
 }
+
 /* ================= LEFT CONTENT ================= */
 .hero-text {
   flex: 1;
@@ -136,6 +149,7 @@
   color: #02033B;
   margin-bottom: 1.2rem;
 }
+
 .hero-text p {
   font-size: 1.2rem;
   color: #02033B;
@@ -143,11 +157,13 @@
   margin-bottom: 2rem;
   line-height: 1.7;
 }
+
 /* ================= BUTTONS ================= */
 .hero-buttons {
   display: flex;
   gap: 20px;
 }
+
 .btn-primary-custom {
   display: inline-block;
   padding: 15px 35px;
@@ -158,9 +174,11 @@
   text-decoration: none;
   transition: 0.3s ease;
 }
+
 .btn-primary-custom:hover {
   background: #e5ae40;
 }
+
 .btn-outline-custom {
   display: inline-block;
   padding: 15px 35px;
@@ -171,10 +189,12 @@
   text-decoration: none;
   transition: 0.3s ease;
 }
+
 .btn-outline-custom:hover {
   background: #02033B;
   color: #fff;
 }
+
 /* ================= RIGHT IMAGE SECTION ================= */
 .hero-image {
   flex: 1;
@@ -182,11 +202,13 @@
   justify-content: flex-end;
   align-items: center;
 }
+
 .image-wrapper {
   position: relative;
   width: 100%;
   max-width: 600px;
 }
+
 .blue-bg-img {
   width: 100%;
   display: block;
@@ -201,6 +223,7 @@
   object-fit: cover;
   object-position: center;
 }
+
 .mobile-img {
   position: absolute;
   width: 40%;
@@ -210,13 +233,15 @@
   z-index: 10;
   filter: drop-shadow(0 20px 50px rgba(0,0,0,0.3));
 }
+
 /* ================= RESPONSIVE ================= */
 @media (max-width: 991px) {
   .hero-section {
     min-height: auto;
     padding: 50px 20px;
   }
-.hero-container {
+
+  .hero-container {
     flex-direction: column;
     text-align: center;
     padding: 0;
@@ -234,7 +259,8 @@
     justify-content: center;
     margin-top: 50px;
   }
- /* Mobile par ellipse ka size adjust karein */
+
+  /* Mobile par ellipse ka size adjust karein */
   .hero-ellipse {
     width: 1000px;
     height: 1000px;
@@ -242,3 +268,232 @@
     left: -300px;
   }
 }
+/* ================= CTA SECTION ================= */
+/* ================= TESTIMONIAL SECTION ================= */
+
+.testimonials {
+    background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%);
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Title */
+.test-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #02033B;
+    margin-bottom: 50px;
+    line-height: 1.2;
+}
+
+/* 🔥 SLIDER WRAPPER (FIXED ONLY) */
+.slider-wrapper {
+    width: 100%;
+    overflow-x: auto;   /* changed */
+    scroll-snap-type: x mandatory; /* added */
+    -webkit-overflow-scrolling: touch;
+    padding: 0 5%; /* kept same for peek */
+}
+
+/* hide scrollbar */
+.slider-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+/* ROW */
+.reviews-row {
+    display: flex;
+    gap: 24px;
+    justify-content: flex-start; /* changed (important for slider) */
+    align-items: stretch;
+}
+
+/* CARD */
+.review-card {
+    flex: 0 0 340px;
+    width: 340px;
+    height: 280px;
+
+    background: #fff;
+    border-radius: 40px;
+
+    padding: 28px 28px 80px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.1);
+
+    scroll-snap-align: center; /* added */
+}
+
+/* TEXT */
+.review-card p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #02033B;
+}
+
+/* NAME */
+.review-card span {
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: auto;
+}
+
+/* STARS */
+.stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.stars svg {
+    fill: #FDB235;
+}
+
+/* FEATURED SECTION */
+.featured-row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.featured-text {
+    font-size: 18px;
+    font-weight: 800;
+    color: #02033B;
+}
+
+.logos {
+    display: flex;
+    gap: 30px;
+}
+
+.logos img {
+    width: 120px;
+    height: 85px;
+    object-fit: contain;
+    filter: brightness(0);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+    .reviews-row {
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding-left: 10px;
+    }
+
+    .slider-wrapper {
+        padding: 0 10px;
+    }
+
+    .review-card {
+        flex: 0 0 300px;
+        width: 300px;
+        height: auto;
+    }
+}
+/* Base Section Styling */
+.features-section {
+    background: linear-gradient(to bottom, #F3F8FF, #E7EFFA);
+    padding: 84px 0;
+    font-family: 'Inter', sans-serif;
+    color: #02033B;
+}
+
+/* Title Styling */
+.features-title {
+    font-size: 36px;
+    font-weight: 800; /* Extra Bold */
+    line-height: 45px;
+    letter-spacing: -0.72px;
+    margin-bottom: 60px;
+    max-width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* White Card Container */
+.features-card {
+    background-color: #FFFFFF;
+    border-radius: 48px;
+    padding: 72px;
+    max-width: 840px;
+    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Feature Item Styling */
+.feature-item {
+    padding: 10px;
+    height: 100%;
+}
+
+.feature-item img {
+    width: 77px;
+    height: 72px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.feature-item h6 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.feature-item p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #02033B;
+    opacity: 0.9; /* Subtle text fade */
+}
+
+/* Button Styling */
+.btn-yellow {
+    background-color: #FFC247;
+    color: #02033B;
+    padding: 12px 24px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #02033B;
+    border: 2px solid #02033B;
+    padding: 12px 24px;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    margin: 10px;
+    transition: background 0.2s;
+}
+
+.btn-yellow:hover {
+    background-color: #e6af3f;
+}
+
+.btn-outline:hover {
+    background-color: #02033B;
+    color: #fff;
+}
+
+
+
