@@ -136,3 +136,10 @@
   color: #02033B;
   margin-bottom: 1.2rem;
 }
+.hero-text p {
+  font-size: 1.2rem;
+  color: #02033B;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+  line-height: 1.7;
+}
