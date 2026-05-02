@@ -302,3 +302,28 @@
 .slider-wrapper::-webkit-scrollbar {
     display: none;
 }
+/* ROW */
+.reviews-row {
+    display: flex;
+    gap: 24px;
+    justify-content: flex-start; /* changed (important for slider) */
+    align-items: stretch;
+}
+/* CARD */
+.review-card {
+    flex: 0 0 340px;
+    width: 340px;
+    height: 280px;
+
+    background: #fff;
+    border-radius: 40px;
+
+    padding: 28px 28px 80px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.1);
+
+    scroll-snap-align: center; /* added */
+}
