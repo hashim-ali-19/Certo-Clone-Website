@@ -339,3 +339,9 @@
     font-weight: 800;
     margin-top: auto;
 }
+/* STARS */
+.stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px;
+}
