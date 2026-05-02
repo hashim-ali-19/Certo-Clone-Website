@@ -333,3 +333,9 @@
     line-height: 20px;
     color: #02033B;
 }
+/* NAME */
+.review-card span {
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: auto;
+}
