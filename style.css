@@ -158,3 +158,6 @@
   text-decoration: none;
   transition: 0.3s ease;
 }
+.btn-primary-custom:hover {
+  background: #e5ae40;
+}
