@@ -327,3 +327,9 @@
 
     scroll-snap-align: center; /* added */
 }
+/* TEXT */
+.review-card p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #02033B;
+}
