@@ -429,3 +429,8 @@
     object-fit: contain;
     margin-bottom: 20px;
 }
+.feature-item h6 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
