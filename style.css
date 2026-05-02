@@ -1,0 +1,8 @@
+/* ================= HEADER ================= */
+.header {
+  background: #F3F8FF;
+  height: 102px;
+  padding: 0 120px;
+  display: flex;
+  align-items: center;
+}
