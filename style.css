@@ -175,3 +175,10 @@
   background: #02033B;
   color: #fff;
 }
+/* ================= RIGHT IMAGE SECTION ================= */
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
