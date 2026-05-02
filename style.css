@@ -348,6 +348,13 @@
 .stars svg {
     fill: #FDB235;
 }
+/* ================================================
+   ABOUT SECTION
+   ================================================ */
+.about-section {
+  background: var(--white);
+  padding: 90px 0;
+}
 /* FEATURED SECTION */
 .featured-row {
     display: flex;
