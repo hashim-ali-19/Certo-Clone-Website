@@ -348,3 +348,11 @@
 .stars svg {
     fill: #FDB235;
 }
+/* FEATURED SECTION */
+.featured-row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+    padding: 0 20px;
+}
