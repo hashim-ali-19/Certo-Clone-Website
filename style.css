@@ -110,3 +110,16 @@
   z-index: -1; 
   pointer-events: none;
 }
+/* ================= HERO CONTAINER ================= */
+.hero-container {
+  /* Relative position zaroori hai taake ye ellipse ke upar layer ho */
+  position: relative; 
+  z-index: 2; 
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 0;
+  gap: 20px;
+}
