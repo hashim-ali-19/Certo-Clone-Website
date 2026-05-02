@@ -67,3 +67,21 @@
 .btn-signin:hover {
   background-color: #3529b5;
 }
+/* ================= HERO SECTION ================= */
+
+/* ================= HERO SECTION LAYOUT ================= */
+.hero-section {
+  background-color: #F3F8FF; /* Aapka base light blue color */
+  padding: 50px 0 100px;
+  margin: 0;
+  
+  /* IMPORTANT: Ellipse ko background layer mein rakhne ke liye */
+  position: relative; 
+  overflow: hidden; 
+  z-index: 1;
+
+  /* Screen height adjustment */
+  min-height: calc(100vh - 102px);
+  display: flex;
+  align-items: center;
+}
