@@ -148,3 +148,13 @@
   display: flex;
   gap: 20px;
 }
+.btn-primary-custom {
+  display: inline-block;
+  padding: 15px 35px;
+  background: #FFC247;
+  color: #02033B;
+  border-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
