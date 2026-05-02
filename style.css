@@ -282,3 +282,11 @@
     margin: auto;
     padding: 0 20px;
 }
+/* Title */
+.test-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #02033B;
+    margin-bottom: 50px;
+    line-height: 1.2;
+}
