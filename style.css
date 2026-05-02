@@ -372,3 +372,21 @@
     object-fit: contain;
     filter: brightness(0);
 }
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+    .reviews-row {
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding-left: 10px;
+    }
+
+    .slider-wrapper {
+        padding: 0 10px;
+    }
+
+    .review-card {
+        flex: 0 0 300px;
+        width: 300px;
+        height: auto;
+    }
+}
