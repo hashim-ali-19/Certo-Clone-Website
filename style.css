@@ -371,6 +371,7 @@
     height: 85px;
     object-fit: contain;
     filter: brightness(0);
+<<<<<<< HEAD
 }
 /* RESPONSIVE */
 @media (max-width: 1024px) {
@@ -415,4 +416,5 @@
     padding: 72px;
     max-width: 840px;
     box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.1);
+
 }
