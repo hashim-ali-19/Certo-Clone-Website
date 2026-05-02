@@ -361,3 +361,14 @@
     font-weight: 800;
     color: #02033B;
 }
+.logos {
+    display: flex;
+    gap: 30px;
+}
+
+.logos img {
+    width: 120px;
+    height: 85px;
+    object-fit: contain;
+    filter: brightness(0);
+}
