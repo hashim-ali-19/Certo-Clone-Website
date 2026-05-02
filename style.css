@@ -45,3 +45,22 @@
   height: 14px;
   transition: 0.3s;
 }
+/* optional hover animation */
+.company-link:hover svg {
+  transform: rotate(180deg);
+}
+/* RIGHT BUTTON */
+.btn-signin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4335DE;
+  color: #FFFFFF;
+  min-width: 120px;
+  height: 46px;
+  padding: 0 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
