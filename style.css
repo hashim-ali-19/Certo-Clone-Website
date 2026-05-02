@@ -465,3 +465,6 @@
     margin: 10px;
     transition: background 0.2s;
 }
+.btn-yellow:hover {
+    background-color: #e6af3f;
+}
