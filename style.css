@@ -216,7 +216,31 @@
     min-height: auto;
     padding: 50px 20px;
   }
+.hero-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+  }
 
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-image {
+    justify-content: center;
+    margin-top: 50px;
+  }
+ /* Mobile par ellipse ka size adjust karein */
+  .hero-ellipse {
+    width: 1000px;
+    height: 1000px;
+    top: -400px;
+    left: -300px;
+  }
 
 
 }
