@@ -161,3 +161,13 @@
 .btn-primary-custom:hover {
   background: #e5ae40;
 }
+.btn-outline-custom {
+  display: inline-block;
+  padding: 15px 35px;
+  border: 2px solid #02033B;
+  color: #02033B;
+  border-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
