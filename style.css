@@ -143,3 +143,8 @@
   margin-bottom: 2rem;
   line-height: 1.7;
 }
+/* ================= BUTTONS ================= */
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
