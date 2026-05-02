@@ -423,3 +423,9 @@
     padding: 10px;
     height: 100%;
 }
+.feature-item img {
+    width: 77px;
+    height: 72px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
