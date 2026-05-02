@@ -390,3 +390,10 @@
         height: auto;
     }
 }
+/* Base Section Styling */
+.features-section {
+    background: linear-gradient(to bottom, #F3F8FF, #E7EFFA);
+    padding: 84px 0;
+    font-family: 'Inter', sans-serif;
+    color: #02033B;
+}
