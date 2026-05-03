@@ -627,3 +627,9 @@
     color: #02033b !important;
     padding: 14px 28px !important;
 }
+.blue-section {
+  background-color: rgba(41, 37, 204, 1);
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
