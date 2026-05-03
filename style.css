@@ -716,3 +716,10 @@
     margin-bottom: 40px;
     color: #FFFFFF;
 }
+/* Button Layout Container */
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
