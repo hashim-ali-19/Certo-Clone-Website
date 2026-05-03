@@ -709,3 +709,10 @@
     margin-bottom: 16px;
     color: #FFFFFF;
 }
+/* Subtext */
+.cta-section p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+}
