@@ -583,3 +583,8 @@
     color: white !important;
     padding: 16px 44px 16px 20px !important;
 }
+.btn-help {
+    border: 2px solid #02033b !important;
+    color: #02033b !important;
+    padding: 14px 28px !important;
+}
