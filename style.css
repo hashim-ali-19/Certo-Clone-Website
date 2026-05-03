@@ -681,3 +681,15 @@
         padding: 0 20px !important;
     }
 }
+/* ================= FINAL CTA SECTION ================= */
+
+.cta-section {
+    /* Background Gradient (image_88c421) */
+    background: linear-gradient(180deg, #2925CC 0%, #4B48E5 100%) !important;
+    
+    /* Layout Padding (image_88c421) */
+    padding: 84px 0 !important; 
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+}
