@@ -556,3 +556,11 @@
     background-color: #ffffff !important;
     border: 1px solid #E5E7EB !important;
 }
+/* 5. Typography */
+.story-card h5, .help-card h5 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #02033b;
+    white-space: nowrap;
+}
