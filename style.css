@@ -723,3 +723,31 @@
     align-items: center;
     gap: 24px;
 }
+/* YELLOW BUTTON: Exact Specs & Alignment Fix */
+.btn-yellow {
+    background-color: #FFC247 !important;
+    color: #02033B !important;
+    
+    /* Precise Dimensions */
+    width: 268.66px !important;
+    height: 54.5px !important;
+    border-radius: 42px !important;
+    
+    /* VERTICAL ALIGNMENT FIX */
+    display: inline-flex !important;
+    align-items: center !important;      /* Text aur arrow ko vertical center karne ke liye */
+    justify-content: center !important;   /* Horizontal centering */
+    gap: 12px !important;                /* Text aur arrow ke darmiyan gap */
+    
+    /* Resetting Offsets */
+    padding: 0 20px !important;          /* Side padding only to prevent vertical shift */
+    line-height: 1 !important;           /* Line height reset for centering */
+    
+    /* Typography */
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    border: none !important;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
