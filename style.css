@@ -550,3 +550,9 @@
     background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%) !important;
     border: none !important;
 }
+/* Right Card (Small) - image_8943d9 */
+.help-card {
+    width: 308px !important; /* Exact width from your Figma screenshot */
+    background-color: #ffffff !important;
+    border: 1px solid #E5E7EB !important;
+}
