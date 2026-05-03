@@ -570,3 +570,11 @@
     margin-bottom: 30px;
     color: #02033b;
 }
+/* 6. BUTTONS (image_893bde) */
+.btn-story, .btn-help {
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 42px !important;
+    display: inline-block;
+    width: fit-content;
+}
