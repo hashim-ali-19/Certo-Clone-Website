@@ -544,3 +544,9 @@
     background-color: #02033B;
     color: #fff;
 }
+/* Left Card (Large) - image_894058 */
+.story-card {
+    width: 460px !important; 
+    background: linear-gradient(180deg, #F7C95F 0%, #FDB235 100%) !important;
+    border: none !important;
+}
