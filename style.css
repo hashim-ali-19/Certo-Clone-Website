@@ -671,3 +671,13 @@
   gap: 20px;
   flex-wrap: wrap;
 }
+/* Responsive Fix */
+@media (max-width: 1100px) {
+    .extra-section .row {
+        flex-wrap: wrap !important;
+        gap: 20px !important;
+    }
+    .extra-section .container {
+        padding: 0 20px !important;
+    }
+}
