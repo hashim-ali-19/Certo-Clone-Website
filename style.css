@@ -699,3 +699,13 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+/* Heading Specs */
+.cta-section h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    letter-spacing: -0.72px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
