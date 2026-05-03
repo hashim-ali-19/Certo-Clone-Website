@@ -795,3 +795,11 @@
         max-width: 280px;
     }
 }
+/* LATEST INSIGHTS SECTION */
+/* Section Container */
+.insights-section {
+    background-color: #F3F8FF;
+    padding: 84px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
