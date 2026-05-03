@@ -825,3 +825,15 @@
     align-items: stretch;      /* Sab cards ki height barabar karne ke liye */
     margin-bottom: 40px;
 }
+/* Card Styling */
+.insight-card {
+    background-color: #FFFFFF;
+    width: 272px;               /* 0.5 inch reduced width */
+    height: auto;               
+    border-radius: 40px;        
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
