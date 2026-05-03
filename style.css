@@ -842,3 +842,11 @@
     height: 170px;             /* Length halki si barhai (Minute increase) */
     object-fit: cover;
 }
+/* Text Content Area */
+.card-body {
+    /* Bottom padding ko 36px se barha kar 48px kiya taake length behtar lage */
+    padding: 24px 22px 48px 22px; 
+    flex-grow: 1;                 
+    display: flex;
+    flex-direction: column;
+}
