@@ -816,3 +816,12 @@
     text-align: center;
     margin-bottom: 60px;
 }
+
+/* Grid Layout */
+.insights-grid {
+    display: flex;
+    gap: 32px;                 
+    justify-content: center;
+    align-items: stretch;      /* Sab cards ki height barabar karne ke liye */
+    margin-bottom: 40px;
+}
