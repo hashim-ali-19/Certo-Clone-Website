@@ -162,6 +162,7 @@
 .hero-buttons {
   display: flex;
   gap: 20px;
+
 }
 
 .btn-primary-custom {
@@ -353,25 +354,49 @@
    ================================================ */
 .about-section {
   background: var(--white);
-  padding: 90px 0;
+  padding: 100px 0;
 }
 .about-section h2 {
   font-size: clamp(1.7rem, 3vw, 2.5rem);
+  font-family: 'Inter', sans-serif;
   font-weight: 800;
-  line-height: 1.15;
+  line-height: 40px;
   color: var(--navy);
   margin-bottom: 22px;
   letter-spacing: -0.5px;
 }
 .about-section p {
   font-size: 1rem;
-  color: #555;
+  font-family: 'Inter', sans-serif;
+  color: #000000e9;
   line-height: 1.7;
   margin-bottom: 36px;
   max-width: 480px;
 }
+.about-btns { display: flex; flex-direction: column; gap: 20px; align-items: flex-start; }
 
 
+.about-img {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  object-fit: cover;
+  border-radius: var(--radius-card);
+  border: 4px solid var(--yellow);
+}
+/* Placeholder image when no real photo */
+.about-img-placeholder {
+  width: 100%;
+  min-height: 380px;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  position: relative;
+  border: 4px solid var(--yellow);
+  background: linear-gradient(160deg, #f8d090 0%, #e8a855 40%, #c0853a 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
