@@ -564,3 +564,9 @@
     color: #02033b;
     white-space: nowrap;
 }
+.story-card p, .help-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #02033b;
+}
