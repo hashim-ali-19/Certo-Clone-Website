@@ -629,16 +629,36 @@
 }
 .blue-section {
   background-color: rgba(41, 37, 204, 1);
-  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  color: white;
   padding: 80px 20px;
   text-align: center;
 }
-.section-h2{
-    font-family: 'Inter', sans-serif;
-    font-weight: 800;
-    font-size: 70px;
-    line-height: 45px;
-    letter-spacing: -0.72px;
-    margin-bottom: 16px;
-    bleed: extra-bold;
+/* ── INNER CONTAINER ──
+   max-width: 900px — heading ek line mein aati hai bina wrap hue */
+.blue-section .inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+/* ── MAIN HEADING ──
+   white-space: nowrap  = ek line par force karta hai
+   margin-bottom: 2.4rem = subtext se 2-line jaisa gap
+   color: #ffffff = white */
+.blue-section h2 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #ffffff;
+  white-space: nowrap;
+  text-align: center;
+  margin: 0 0 2.4rem 0;
+  line-height: 1.2;
+}
+/* ── SUBTEXT ──
+   center, white color, buttons se upar 40px gap */
+.blue-section .subtext {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: right;
+  margin: 0 0 40px 0;
 }
