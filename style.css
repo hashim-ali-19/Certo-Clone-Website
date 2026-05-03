@@ -578,3 +578,8 @@
     display: inline-block;
     width: fit-content;
 }
+.btn-story {
+    background-color: #4335DE !important;
+    color: white !important;
+    padding: 16px 44px 16px 20px !important;
+}
