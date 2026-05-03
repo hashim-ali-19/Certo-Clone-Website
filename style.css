@@ -776,3 +776,8 @@
     padding: 0 32px !important;
     transition: background-color 0.3s ease;
 }
+/* Hover States */
+.btn-yellow:hover {
+    background-color: #fdb92d !important;
+    transform: translateY(-2px);
+}
