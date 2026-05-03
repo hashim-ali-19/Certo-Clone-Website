@@ -693,3 +693,9 @@
     color: #FFFFFF;
     width: 100%;
 }
+.cta-section .container {
+    /* Inner Width (image_88c3db) */
+    max-width: 750px !important;
+    margin: 0 auto;
+    padding: 0 15px;
+}
