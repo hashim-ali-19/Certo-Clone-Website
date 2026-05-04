@@ -996,3 +996,9 @@
   font-weight: 700;
   font-size: 19px;
 }
+/* --- COLUMN 3: INTERACTION (Newsletter + Box) --- */
+.interaction-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Aligns to right edge like image_1974c0.png */
+}
