@@ -952,3 +952,13 @@
   text-decoration: underline;
   opacity: 0.9;
 }
+.legal-info p {
+  font-size: 11px;
+  line-height: 1.8;
+  opacity: 0.7;
+}
+
+.legal-info a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
