@@ -918,3 +918,19 @@
   font-weight: 800;
   margin-bottom: 35px;
 }
+.socials {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 45px;
+}
+
+.social-link {
+  background-color: #FFFFFF;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  transition: transform 0.2s ease;
+}
