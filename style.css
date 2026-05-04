@@ -912,3 +912,9 @@
   align-items: start;
   margin-bottom: 80px;
 }
+/* --- COLUMN 1: BRAND --- */
+.footer-title {
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 35px;
+}
