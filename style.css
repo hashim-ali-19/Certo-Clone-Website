@@ -1010,3 +1010,8 @@
   width: 100%;
   max-width: 440px;
 }
+.newsletter-card h4 {
+  font-size: 24px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
