@@ -898,3 +898,8 @@
   padding: 100px 0 60px 0;
   font-family: 'Inter', sans-serif;
 }
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
