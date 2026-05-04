@@ -937,3 +937,6 @@
 .social-link svg {
   fill: #02033B;
 }
+.social-link:hover {
+  transform: translateY(-3px);
+}
