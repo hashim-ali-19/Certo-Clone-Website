@@ -892,4 +892,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.footer {
+  background-color: #02033B;
+  color: #FFFFFF;
+  padding: 100px 0 60px 0;
+  font-family: 'Inter', sans-serif;
+}
