@@ -1048,3 +1048,10 @@
 .newsletter-form button:hover {
   background-color: #05075a;
 }
+.decorative-white-box {
+  background-color: #FFFFFF;
+  width: 270px;
+  height: 125px;
+  border-radius: 18px;
+  margin-top: 50px; /* Space from newsletter card */
+}
