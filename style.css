@@ -1015,3 +1015,8 @@
   font-weight: 900;
   margin-bottom: 15px;
 }
+.newsletter-card p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
