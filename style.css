@@ -1035,3 +1035,13 @@
   outline: none;
   font-size: 14px;
 }
+.newsletter-form button {
+  background-color: #02033B;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
