@@ -1055,3 +1055,11 @@
   border-radius: 18px;
   margin-top: 50px; /* Space from newsletter card */
 }
+/* --- BOTTOM TRADEMARKS --- */
+.footer-trademarks {
+  font-size: 11px;
+  line-height: 1.6;
+  opacity: 0.5;
+  padding-top: 40px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
