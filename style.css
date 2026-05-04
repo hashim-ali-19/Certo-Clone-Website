@@ -903,3 +903,12 @@
   margin: 0 auto;
   padding: 0 50px;
 }
+/* --- GRID LAYOUT --- */
+.footer-grid {
+  display: grid;
+  /* Defining 3 distinct columns based on image_1974c0.png */
+  grid-template-columns: 1fr 0.6fr 1.2fr; 
+  gap: 40px;
+  align-items: start;
+  margin-bottom: 80px;
+}
