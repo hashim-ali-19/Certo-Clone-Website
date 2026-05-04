@@ -940,3 +940,15 @@
 .social-link:hover {
   transform: translateY(-3px);
 }
+.meta-links {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.meta-links a {
+  color: #FFFFFF;
+  font-size: 11px;
+  text-decoration: underline;
+  opacity: 0.9;
+}
