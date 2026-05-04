@@ -972,3 +972,27 @@
   width: fit-content;
   min-width: 160px;
 }
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li::before {
+  content: "";
+  width: 15px;
+  height: 2px;
+  background-color: #FFC247;
+  margin-right: 15px;
+}
+
+.nav-list a {
+  color: #FFC247;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 19px;
+}
