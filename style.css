@@ -962,3 +962,13 @@
   color: #FFFFFF;
   text-decoration: underline;
 }
+/* --- COLUMN 2: CERTO LINKS --- */
+.nav-title {
+  font-size: 32px;
+  font-weight: 800;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  width: fit-content;
+  min-width: 160px;
+}
