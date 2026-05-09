@@ -1,25 +1,30 @@
-# Ecowrap — Website using HTML-CSS
+# Certo — Website using HTML-CSS
  
-![image alt](Home1.png)
+![image alt](firstpage.png)
 ---
 
 ## 🖥️ Screenshots
  
-### Why us 
-![image alt](whyus.png)
+### About
+![image alt](About.png)
 
 ---
-### Products 
-![image alt](ourproducts.png)
-
----
-
 ### Reviews 
 ![image alt](reviews.png)
 
 ---
 
-### Contact 
-![image alt](contact.png)
+### Features 
+![image alt](features.png)
 
 ---
+
+### Latest Insights 
+![image alt](latestinsights.png)
+
+---
+
+
+### Footer 
+![image alt](footer.png)
+
