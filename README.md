@@ -1,6 +1,6 @@
 # Ecowrap — Website using HTML-CSS
  
-![image alt](home1.png)
+![image alt](Home1.png)
 ---
 
 ## 🖥️ Screenshots
